@@ -28,6 +28,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f2eae2;
+  font-family: "Montserrat",serif;
 }
 
 .container {
@@ -35,69 +37,67 @@ body {
 }
 
 .main {
-  width: 1440px;
-  height: 800px;
   top: 175px;
   left: 420px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f2eae2;
 }
+
 .card {
   display: flex;
   justify-content: center;
   width: 600px;
   height: 450px;
   background-color: #ffffff;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
+  border-radius: 10px;
+} 
+
 .card__image {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-}
+} 
 .card__img {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-}
+} 
+
 .card__info {
   display: flex;
   flex-direction: column;
-}
+} 
+
 .card__info_suptitle {
-  font-family: "Montserrat" Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 100%;
   letter-spacing: 5px;
   color: #6c7289;
   padding-top: 32px;
+  margin-bottom: 20px;
 }
 
 .card__info_title {
-  margin-top: 20px;
-  font-family: "Fraunces" Arial, Helvetica, sans-serif;
+  font-family: "Fraunces", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-style: bold;
   font-size: 32px;
   line-height: 32px;
   color: #1c232b;
   height:96px;
+  margin-bottom: 24px;
 }
 
 .card__info_description {
-  padding-top: 24px;
-  font-family: "Montserrat";
   font-weight: 500;
   font-size: 14px;
   line-height: 23px;
   width: 236px;
   height: 96px;
+  margin-bottom: 29px;
 }
 
 .card__price {
-  margin-top: 29px;
   display: flex;
   justify-content: start;
 }
@@ -108,12 +108,11 @@ body {
   font-size: 32px;
   line-height: 32px;
   color: #3d8168;
-  padding-right: 19px;
+  margin-right: 19px;
 }
 
 .card__info_old-price {
   display: flex;
-  font-family: "Montserrat" Arial, Helvetica, sans-serif;
   font-size: 13px;
   line-height: 23px;
   text-decoration: line-through;
@@ -147,7 +146,6 @@ body {
 }
 
 .card__btn_btn {
-  font-family: "Montserrat";
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
